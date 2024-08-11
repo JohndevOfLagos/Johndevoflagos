@@ -2,7 +2,7 @@ import Preloader from "../components/ui/preloader";
 import { jostMedium, openSans } from "./fonts";
 import "./globals.css";
 import Providers from "./providers";
-// import ogImageUrltest from "../public/images/metadataImage/metabg.png"
+import ogImageUrltest from "../public/images/metadataImage/metabg.png"
 export async function generateMetadata() {
     const ogImageUrl = new URL('../app/api/og-image', 'https://www.johndevoflagos.com').href;
     
@@ -16,7 +16,7 @@ export async function generateMetadata() {
         site_name: "Johndevoflagos",
         images: [
           {
-            url: ogImageUrl,
+            url: ogImageUrltest,
             width: 1200,
             height: 630,
             alt: "Johndevoflagos Background Image",
@@ -27,7 +27,7 @@ export async function generateMetadata() {
         card: "summary_large_image",
         title: "Johndevoflagos Software-Engineer",
         description: "Welcome to Johndevoflagos Software-Engineer. I combine my passion for user-focused design with advanced development technologies.",
-        image: ogImageUrl,
+        image: ogImageUrltest,
       },
     };
   }
