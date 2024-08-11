@@ -1,7 +1,7 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { branding } from "@/data/site";
+import { branding } from "../../data/site";
 import { Autoplay } from "swiper/modules";
 import Link from "next/link";
 import Image from "next/image";

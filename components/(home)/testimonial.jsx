@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import TestimonialCard from "./ui/testimonial-card";
-import { testimonial } from "@/data/site";
+import { testimonial } from "../../data/site";
 import Image from "next/image";
 
 export default function Testimonial() {
@@ -62,7 +62,7 @@ export default function Testimonial() {
                                     width="0"
                                     sizes="100vw"
                                     className="border-radius10 h-100 w-100"
-                                    src="/images/testimonial/testimonials-img.png"
+                                    src="/images/testimonial/testimonials-img.jpg"
                                     alt="author image "
                                 />
                             </div>

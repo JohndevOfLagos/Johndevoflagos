@@ -1,4 +1,4 @@
-import { awardInfo } from "@/data/site";
+import { awardInfo } from "../../data/site";
 import AwardAreaLine from "./ui/award-area-line";
 
 export default function AwardArea() {

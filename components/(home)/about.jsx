@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import { Tilt } from "react-tilt";
 import AboutInfo from "./ui/about-info";
 
@@ -15,6 +14,25 @@ const defaultOptions = {
     reset: true,
     easing: "cubic-bezier(.03,.98,.52,.99)",
 };
+
+
+const PDF_FIlE_URL = "downloads/pdf/John-Adewunmi-CV.pdf";
+
+const downloadFileAtURL = (url) => {
+    fetch(url).then(response => response.blob()).then(blob => {
+        const blobURL = window.URL.createObjectURL(new Blob([blob]))
+        const fileName = url.split("/").pop()
+        const aTag = document.createElement("a")
+        aTag.href = blobURL
+        aTag.setAttribute("download", fileName)
+        document.body.appendChild(aTag)
+        aTag.click()
+        aTag.remove()
+    })
+
+}
+
+
 
 export default function About() {
     return (
@@ -73,9 +91,9 @@ export default function About() {
                                                 src="/images/about/download-bg.png"
                                                 alt="about image 2"
                                             />
-                                            <Link
-                                                href="/"
+                                            <button 
                                                 className="cv-download-link transition5"
+                                                onClick={() => { downloadFileAtURL(PDF_FIlE_URL) }}
                                             >
                                                 <Image
                                                     height={25}
@@ -84,7 +102,7 @@ export default function About() {
                                                     src="/images/icon/download-icon.png"
                                                     alt="about image 3"
                                                 />
-                                            </Link>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

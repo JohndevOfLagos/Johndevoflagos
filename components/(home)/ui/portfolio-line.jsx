@@ -1,5 +1,5 @@
 "use client";
-import { addPortfolioInfo } from "@/redux/features/portfolio/poftfolioSlice";
+import { addPortfolioInfo } from "../../../redux/features/portfolio/poftfolioSlice";
 import Image from "next/image";
 import { useDispatch } from "react-redux";
 

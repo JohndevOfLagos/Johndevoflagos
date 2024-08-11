@@ -1,4 +1,4 @@
-import { experience } from "@/data/site";
+import { experience } from "../../data/site";
 import FactExperienceCard from "./ui/fact-experience-card";
 import Image from "next/image";
 

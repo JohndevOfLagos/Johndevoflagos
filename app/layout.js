@@ -1,4 +1,4 @@
-import Preloader from "@/components/ui/preloader";
+import Preloader from "../components/ui/preloader";
 import { jostMedium, openSans } from "./fonts";
 import "./globals.css";
 import Providers from "./providers";

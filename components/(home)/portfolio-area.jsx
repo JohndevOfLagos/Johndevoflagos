@@ -1,4 +1,4 @@
-import { portfolioArea } from "@/data/site";
+import { portfolioArea } from "../../data/site";
 import PortfolioLine from "./ui/portfolio-line";
 import PortfolioMarquee from "./ui/portfolio-marquee";
 import PortfolioLineModal from "./ui/portfolio-line-modal";

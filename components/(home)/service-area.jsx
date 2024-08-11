@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ServiceAreaCard from "./ui/service-area-card";
-import { service } from "@/data/site";
+import { service } from "../../data/site";
 
 export default function ServiceArea() {
     return (

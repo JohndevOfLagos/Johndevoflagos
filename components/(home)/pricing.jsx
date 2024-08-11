@@ -1,4 +1,4 @@
-import { pricing } from "@/data/site";
+import { pricing } from "../../data/site";
 import PricingCard from "./ui/pricing-card";
 
 export default function Pricing() {

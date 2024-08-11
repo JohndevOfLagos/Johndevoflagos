@@ -2,10 +2,10 @@
 import React from "react";
 import Navigation from "./ui/navigation";
 import Link from "next/link";
-import useSticky from "@/hooks/useSticky";
+import useSticky from "../../hooks/useSticky";
 import Image from "next/image";
 import { useDispatch } from "react-redux";
-import { toggleSidebar } from "@/redux/features/toggle/toggleSlice";
+import { toggleSidebar } from "../../redux/features/toggle/toggleSlice";
 
 export default function Header1() {
     const isSticky = useSticky(2);

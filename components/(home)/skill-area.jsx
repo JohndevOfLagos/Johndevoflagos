@@ -1,5 +1,5 @@
 "use client";
-import { skills } from "@/data/site";
+import { skills } from "../../data/site";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 

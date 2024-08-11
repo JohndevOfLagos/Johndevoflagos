@@ -1,7 +1,7 @@
 "use client";
 import { Tilt } from "react-tilt";
 import IntroFeatureCard from "./ui/intro-feature-card";
-import { introFeature } from "@/data/site";
+import { introFeature } from "../../data/site";
 import Image from "next/image";
 
 const defaultOptions = {

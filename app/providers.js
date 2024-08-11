@@ -2,9 +2,9 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import { Provider } from "react-redux";
-import { store } from "@/redux/app/store";
-import SidebarNavigation from "@/components/header/sidebar-navigation";
-import ScrollTop from "@/components/ui/scroll-top";
+import { store } from "../redux/app/store";
+import SidebarNavigation from "../components/header/sidebar-navigation";
+import ScrollTop from "../components/ui/scroll-top";
 
 if (typeof window !== "undefined") {
     require("bootstrap");

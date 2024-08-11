@@ -1,4 +1,4 @@
-import { experience2 } from "@/data/site";
+import { experience2 } from "../../data/site";
 import ExperienceList from "./ui/experience-list";
 
 export default function Experience() {
@@ -8,7 +8,7 @@ export default function Experience() {
                 <div
                     className="experience-bg-img left-0 top-0 bottom-0 bg-cover no-repeat w-50 position-absolute"
                     style={{
-                        backgroundImage: "url(/images/work/work-img.png)",
+                        backgroundImage: "url(/images/work/work-img.jpg)",
 
                     }}
                 />

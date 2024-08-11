@@ -1,6 +1,6 @@
 import Image from "next/image";
 import EducationList from "./ui/education-list";
-import { education } from "@/data/site";
+import { education } from "../../data/site";
 
 export default function Education() {
     return (
@@ -39,7 +39,7 @@ export default function Education() {
                                 height={648}
                                 width={479}
                                 className="border-radius10 h-auto w-auto education-inner-img"
-                                src="/images/education/education-img.png"
+                                src="/images/education/education-img.jpg"
                                 alt="education image"
                             />
                         </div>

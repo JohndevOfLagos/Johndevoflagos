@@ -1,9 +1,9 @@
 "use client";
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
-import navigation from "@/data/navigation";
+import navigation from "../../data/navigation";
 import { Link } from "react-scroll";
 import { useDispatch, useSelector } from "react-redux";
-import { toggleSidebar } from "@/redux/features/toggle/toggleSlice";
+import { toggleSidebar } from "../../redux/features/toggle/toggleSlice";
 
 const social = [
     {

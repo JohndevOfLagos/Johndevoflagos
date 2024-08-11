@@ -1,5 +1,5 @@
 "use client";
-import { addBlogInfo } from "@/redux/features/blog/blogSlice";
+import { addBlogInfo } from "../../../redux/features/blog/blogSlice";
 import Image from "next/image";
 import Link from "next/link";
 import { useDispatch } from "react-redux";

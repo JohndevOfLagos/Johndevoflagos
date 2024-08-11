@@ -1,5 +1,5 @@
 "use client";
-import useSticky from "@/hooks/useSticky";
+import useSticky from "../../hooks/useSticky";
 import Link from "next/link";
 
 export default function ScrollTop() {

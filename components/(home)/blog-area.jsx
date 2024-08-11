@@ -1,5 +1,5 @@
 "use client";
-import { blog } from "@/data/site";
+import { blog } from "../../data/site";
 import BlogAreaCard from "./ui/blog-area-card";
 import BlogAreaModal from "./ui/blog-area-modal";
 import { Swiper, SwiperSlide } from "swiper/react";

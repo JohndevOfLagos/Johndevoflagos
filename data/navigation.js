@@ -11,7 +11,7 @@ export default [
     },
     {
         name: "Buy me coffee",
-        path: "/support-me",
+        path: "support",
         isPageLink: true,
     },
     {

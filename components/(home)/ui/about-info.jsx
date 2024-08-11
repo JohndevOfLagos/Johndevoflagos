@@ -12,12 +12,16 @@ export default function AboutInfo() {
                 </div>
             </div>
             <p className="mb-25">
-            I combine my passion for user-focused design with advanced development technologies to create seamless and engaging digital experiences. With over 350+ satisfied clients, I have a proven track record of delivering exceptional results.
+                I combine my passion for user-focused design with advanced development technologies to create seamless and engaging digital experiences. With over 350+ satisfied clients, I have a proven track record of delivering exceptional results.
             </p>
             <p className="mb-25">
-            My approach is centered on understanding client needs and delivering projects on time and within budget, ensuring that each project not only meets but exceeds expectations.
+                My approach is centered on understanding client needs and delivering projects on time and within budget, ensuring that each project not only meets but exceeds expectations&#39;s.
             </p>
-            <p>Whether it's crafting intuitive user interfaces or implementing cutting-edge web technologies, I am dedicated to bringing your vision to life with precision and creativity</p>
+
+            <p className="mb-25">
+                I am dedicated to bringing your vision to life with precision and creativity&rsquo;s.
+            </p>
+
             <div className="about-info-wrapper pt-25 pb-20 mt-25">
                 <div className="row">
                     <div className="col-xl-6 col-lg-12 col-md-6 col-sm-12 col-12">
@@ -72,13 +76,14 @@ export default function AboutInfo() {
                         src="/images/about/signature.png"
                         alt="signature"
                     />
+
                 </div>
                 <div className="about-footer-content-right mt-20 text-left">
                     <h6 className="d-xl-inline-block text-uppercase pr5 mb-0">
                         John Adewunmi
                     </h6>
                     <span className="openS-font-family meta-text-color ml-2">
-                    Chief executive officer, JOHNDEV TECHNOLOGIES.
+                        Chief executive officer, JOHNDEV TECHNOLOGIES.
                     </span>
                 </div>
             </div>

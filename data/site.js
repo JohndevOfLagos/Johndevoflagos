@@ -1,7 +1,5 @@
 
 
-
-
 export const introFeature = [
     {
         iconUrl: "/images/icon/intro-ft-icon1.png",
@@ -276,6 +274,8 @@ export const pricing = [
         time: "Hourly",
         price: 20,
         priceTime: "Hour",
+        paymentID: 67829,
+        paymentLink: "https://sandbox-flw-web-v3.herokuapp.com/pay/lgditngkerl", // Add specific link
         list: [
             {
                 name: "One time contract",
@@ -303,6 +303,8 @@ export const pricing = [
         time: "Project Basis",
         price: 80,
         priceTime: "Hour",
+        paymentID: 67830,
+        paymentLink: "https://sandbox-flw-web-v3.herokuapp.com/pay/paymentslinkrjosdfk",
         list: [
             {
                 name: "One time contract",
@@ -330,6 +332,8 @@ export const pricing = [
         time: "Monthly",
         price: 16,
         priceTime: "Hour",
+        paymentID: 67832,
+        paymentLink: "https://sandbox-flw-web-v3.herokuapp.com/pay/fkdymh4blsrx",
         list: [
             {
                 name: "One time contract",
