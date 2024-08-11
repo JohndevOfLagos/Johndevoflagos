@@ -2,35 +2,33 @@ import Preloader from "../components/ui/preloader";
 import { jostMedium, openSans } from "./fonts";
 import "./globals.css";
 import Providers from "./providers";
-import ogImageUrltest from "../public/images/metadataImage/metabg.png"
-export async function generateMetadata() {
-    const ogImageUrl = new URL('../app/api/og-image', 'https://www.johndevoflagos.com').href;
-    
-    return {
-      title: "Johndevoflagos Software-Engineer",
-      description: "Welcome to Johndevoflagos Software-Engineer. I combine my passion for user-focused design with advanced development technologies.",
-      openGraph: {
+import ogImageUrl from "../public/images/metadataImage/metabg.png"
+
+export const metadata = {
+    title: "Johndevoflagos Software-Engineer",
+    description: "Welcome to Johndevoflagos Software-Engineer. I combine my passion for user-focused design with advanced development technologies.",
+    openGraph: {
         title: "Johndevoflagos Software-Engineer",
         description: "Welcome to Johndevoflagos Software-Engineer. I combine my passion for user-focused design with advanced development technologies.",
         url: "https://www.johndevoflagos.com",
         site_name: "Johndevoflagos",
         images: [
-          {
-            url: ogImageUrltest,
-            width: 1200,
-            height: 630,
-            alt: "Johndevoflagos Background Image",
-          },
+            {
+                url: ogImageUrl, // URL to your image
+                width: 1200,
+                height: 630,
+                alt: "Johndevoflagos Background Image",
+            },
         ],
-      },
-      twitter: {
+    },
+    twitter: {
         card: "summary_large_image",
         title: "Johndevoflagos Software-Engineer",
         description: "Welcome to Johndevoflagos Software-Engineer. I combine my passion for user-focused design with advanced development technologies.",
-        image: ogImageUrltest,
-      },
-    };
-  }
+        image: ogImageUrl, // URL to your image
+    },
+};
+
 
 export default function RootLayout({ children }) {
     return (
