@@ -2,9 +2,9 @@ import Preloader from "../components/ui/preloader";
 import { jostMedium, openSans } from "./fonts";
 import "./globals.css";
 import Providers from "./providers";
-
+// import ogImageUrltest from "../public/images/metadataImage/metabg.png"
 export async function generateMetadata() {
-    const ogImageUrl = new URL('/api/og-image', 'https://www.johndevoflagos.com').href;
+    const ogImageUrl = new URL('../app/api/og-image', 'https://www.johndevoflagos.com').href;
     
     return {
       title: "Johndevoflagos Software-Engineer",
