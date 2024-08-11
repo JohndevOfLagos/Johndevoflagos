@@ -79,12 +79,16 @@ export default function Hero() {
                                             {/* type animation end */}
                                         </span>
                                     </h2>
-                                    <Link
-                                        href="/"
+                                    <a
+                                        href="https://calendly.com/johnayomideadewunmi/15min"
                                         className="btn position-relative over-hidden theme-bg text-uppercase transition5"
+                                        target="_self"
+                                        rel="noopener noreferrer"
                                     >
-                                        Say Hello
-                                    </Link>
+                                       BOOK A FREE CONSULTATION CALL
+
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -97,7 +101,7 @@ export default function Hero() {
                                     alt="person Image"
                                     sizes="100vw"
                                     className="h-100 w-100"
-                        
+
                                 />
                             </div>
                         </div>
