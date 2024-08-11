@@ -2,7 +2,9 @@ import Preloader from "../components/ui/preloader";
 import { jostMedium, openSans } from "./fonts";
 import "./globals.css";
 import Providers from "./providers";
-import ogImageUrl from "../public/images/metadataImage/metabg.png"
+
+const ogImageUrlString = "/images/metadataImage/metabg.png";
+
 
 export const metadata = {
     title: "Johndevoflagos Software-Engineer",
@@ -14,7 +16,7 @@ export const metadata = {
         site_name: "Johndevoflagos",
         images: [
             {
-                url: ogImageUrl, // URL to your image
+                url: ogImageUrlString, // URL to your image
                 width: 1200,
                 height: 630,
                 alt: "Johndevoflagos Background Image",
@@ -25,7 +27,7 @@ export const metadata = {
         card: "summary_large_image",
         title: "Johndevoflagos Software-Engineer",
         description: "Welcome to Johndevoflagos Software-Engineer. I combine my passion for user-focused design with advanced development technologies.",
-        image: ogImageUrl, // URL to your image
+        image: ogImageUrlString, // URL to your image
     },
 };
 
