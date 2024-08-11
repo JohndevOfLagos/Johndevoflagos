@@ -15,7 +15,7 @@ export const contentType = 'image/png'
 export default async function Image() {
   // Fetch the font
   const interSemiBold = fetch(
-    new URL('../public/fonts/Inter-SemiBold.ttf', import.meta.url)
+    new URL('../public/fonts/fa-brand.ttf', import.meta.url)
   ).then((res) => res.arrayBuffer())
 
   // Fetch the background image
